@@ -71,7 +71,7 @@ pip install transformers torch
 
 ```
 Artificial Intelligence is transforming
-```
+
 
 Example output:
 
@@ -87,7 +87,65 @@ Artificial Intelligence is transforming industries by enabling machines to under
 * The difference between AI, ML, Deep Learning, NLP, and LLMs
 * How to run a basic Hugging Face text-generation model
 
----
+
+
+LLM Workflow Diagram
+
+Create a simple flowchart like:
+
+User Prompt
+      │
+      ▼
+Tokenization
+      │
+      ▼
+Transformer Model
+      │
+      ▼
+Next Token Prediction
+      │
+      ▼
+Generated Response
+
+2. Transformer Architecture Diagram 
+Illustrate the high-level structure:
+
+Input Tokens
+      │
+      ▼
+Embedding Layer
+      │
+      ▼
+Transformer Blocks
+(Self-Attention + Feed Forward)
+      │
+      ▼
+Output Tokens
+
+3. Tokenization Example
+
+Example:
+
+Prompt:
+
+Artificial Intelligence is amazing!
+
+↓
+
+Tokens
+
+Artificial
+
+Intelligence
+
+is
+
+amazing
+
+!
+
+
+
 
 # 🚀 Next Up
 
