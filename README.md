@@ -42,8 +42,8 @@ The goal is not only to understand the theory but also to build practical implem
 
 | Day    | Topic                                | Status |
 | ------ | ------------------------------------ | ------ |
-| Day 01 | Introduction to LLMs                 | ⏳      |
-| Day 02 | Prompt Engineering                   | ⏳      |
+| Day 01 | Introduction to LLMs                 |  ✅    |
+| Day 02 | Prompt Engineering                   |  ✅    |
 | Day 03 | Tokens & Tokenization                | ⏳      |
 | Day 04 | Temperature, Top-k & Top-p           | ⏳      |
 | Day 05 | Embeddings                           | ⏳      |
