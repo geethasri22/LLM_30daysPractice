@@ -108,6 +108,14 @@ In this notebook, I:
 * Cosine similarity measures semantic closeness.
 * Embeddings are essential for RAG, vector databases, and semantic search.
 
+
+What I Learned
+
+Embeddings capture semantic meaning instead of exact words.
+Cosine similarity helps compare the meaning of text.
+Semantic search retrieves relevant documents even when they don't contain the exact query words.
+Embeddings are the backbone of Retrieval-Augmented Generation (RAG), recommendation systems, and modern AI search applications.
+
 ---
 
 # What's Next?
