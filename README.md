@@ -46,7 +46,7 @@ The goal is not only to understand the theory but also to build practical implem
 | Day 02 | Prompt Engineering                   |  ✅    |
 | Day 03 | Tokens & Tokenization                |  ✅    |
 | Day 04 | Temperature, Top-k & Top-p           |  ✅    |
-| Day 05 | Embeddings                           | ⏳      |
+| Day 05 | Embeddings                           |  ✅    |
 | Day 06 | Vector Similarity                    | ⏳      |
 | Day 07 | Hugging Face Pipelines               | ⏳      |
 | Day 08 | Text Generation                      | ⏳      |
