@@ -1,0 +1,123 @@
+# 📅 Day 07 – Retrieval-Augmented Generation (RAG)
+
+## 🎯 Objective
+
+Learn how Retrieval-Augmented Generation (RAG) improves Large Language Models by retrieving relevant information from external documents before generating a response.
+
+---
+
+# 🤖 What is RAG?
+
+Retrieval-Augmented Generation (RAG) is an AI architecture that combines:
+
+* A **Retriever** (searches for relevant information)
+* A **Generator** (LLM that creates the final response)
+
+Instead of relying only on knowledge learned during training, the model retrieves relevant documents at runtime and uses them as context.
+
+---
+
+# Why Do We Need RAG?
+
+Large Language Models have limitations:
+
+* Knowledge becomes outdated.
+* They may hallucinate incorrect information.
+* They cannot access your private documents by default.
+
+RAG solves these problems by allowing the model to retrieve information from external sources such as PDFs, company documents, databases, or websites before answering.
+
+---
+
+# RAG Workflow
+
+```text
+User Question
+      │
+      ▼
+Embedding Model
+      │
+      ▼
+Query Embedding
+      │
+      ▼
+Vector Database (FAISS)
+      │
+      ▼
+Top-K Relevant Documents
+      │
+      ▼
+Context + User Question
+      │
+      ▼
+Large Language Model
+      │
+      ▼
+Final Answer
+```
+
+---
+
+# Components of a RAG System
+
+### 1. Documents
+
+Knowledge source such as:
+
+* PDFs
+* Research papers
+* Company manuals
+* Websites
+* Notes
+
+---
+
+### 2. Embedding Model
+
+Converts documents and queries into vector embeddings.
+
+---
+
+### 3. Vector Database
+
+Stores document embeddings and retrieves the most similar documents.
+
+---
+
+### 4. Retriever
+
+Searches the vector database for the most relevant context.
+
+---
+
+### 5. Generator (LLM)
+
+Uses the retrieved context and the user's question to generate a final response.
+
+---
+
+# Hands-on Experiment
+
+In this notebook, I:
+
+* Created a small knowledge base.
+* Generated embeddings using Sentence Transformers.
+* Stored embeddings in a FAISS index.
+* Retrieved relevant documents.
+* Constructed a prompt with the retrieved context.
+* Generated an answer using a Hugging Face language model.
+
+---
+
+# Key Learnings
+
+* RAG combines retrieval with generation.
+* Retrieved context improves answer quality.
+* Vector databases make retrieval efficient.
+* RAG reduces hallucinations and enables domain-specific assistants.
+
+---
+
+# What's Next?
+
+➡️ Day 08 – Building a Document Question Answering System
