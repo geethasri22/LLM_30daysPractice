@@ -1,0 +1,45 @@
+1. RAG Architecture ⭐
+User Question
+      │
+      ▼
+Embedding Model
+      │
+      ▼
+Vector Database
+      │
+      ▼
+Retriever
+      │
+      ▼
+LLM
+      │
+      ▼
+Answer
+2. Retrieval Process
+Documents
+     │
+     ▼
+Embeddings
+     │
+     ▼
+FAISS Index
+     │
+     ▼
+Top-K Documents
+3. Prompt Construction
+Retrieved Context
+        +
+User Question
+        │
+        ▼
+Prompt
+        │
+        ▼
+LLM
+
+4. RAG vs LLM Comparison
+Without RAG	With RAG
+Relies only on training data	Uses external knowledge
+Can hallucinate	More grounded responses
+Cannot answer from private documents	Can answer from your own data
+Static knowledge	Up-to-date knowledge
