@@ -51,8 +51,8 @@ The goal is not only to understand the theory but also to build practical implem
 | Day 07 | Hugging Face Pipelines               |  ✅    |
 | Day 08 | Text Generation                      |  ✅    |
 | Day 09 | Summarization                        |  ✅    |
-| Day 10 | Translation Models                   | ✅     |
-| Day 11 | Sentiment Analysis                   | ⏳      |
+| Day 10 | Translation Models                   |  ✅    |
+| Day 11 | Sentiment Analysis                   |  ✅    |
 | Day 12 | Named Entity Recognition             | ⏳      |
 | Day 13 | Question Answering                   | ⏳      |
 | Day 14 | Retrieval-Augmented Generation (RAG) | ⏳      |
