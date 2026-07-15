@@ -80,9 +80,6 @@ In this notebook, I:
 * Classified entities into different categories.
 * Processed multiple paragraphs.
 * Built an interactive entity recognizer.
-
----
-
 # Key Learnings
 
 * NER extracts structured information from unstructured text.
